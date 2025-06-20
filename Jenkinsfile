@@ -18,6 +18,7 @@ pipeline {
             steps {
                 echo 'Running unit tests'
                 bat 'python -m unittest test_app.py'
+                echo 'Unit tests completed'
             }
         }
     }
